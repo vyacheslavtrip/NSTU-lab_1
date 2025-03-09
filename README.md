@@ -36,7 +36,8 @@ d.	Проверка, является ли строка палиндромом -
 - `swcase.cpp`, `vowelcount.cpp`, `ifpalindrome.cpp`, `punct_remove.cpp`: Файлы реализации функций.
 - `swcase.h`, `vowelcount.h`, `ifpalindrome.h`, `punct_remove.h`: Заголовочные файлы функций.
 - `README.md`: Файл с описанием работы.
-
+- `punct_remove.cpp`: Файл реализации классов.
+- `punct_remove.h`: Заголовочные файлы классов.
 ## Авторы
 
 - Соколов Вячеслав (swcase, main)
