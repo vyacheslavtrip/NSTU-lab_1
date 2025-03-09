@@ -49,6 +49,9 @@ int main()
                     cout << "\nNo" << endl;
                 }
                 break;
+            case 4:
+                cout << "\nResult: " << removePunctuation(user_input) << endl;
+                break;
                 
             default:
                 cout << "\nError: Invalid choice.\n";
