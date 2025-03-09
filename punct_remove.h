@@ -1,8 +1,8 @@
-#ifndef PUNCTUATION_REMOVER_H
-#define PUNCTUATION_REMOVER_H
+#ifndef PUNCT_REMOVE_H
+#define PUNCT_REMOVE_H
 
 #include <string>
 
-std::string removePunctuation(const std::string& input);
+std::string removePunct(const std::string& input);
 
 #endif
