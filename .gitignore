@@ -1,0 +1,52 @@
+# Бинарные и объектные файлы
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Файлы и папки с данными о проекте
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Директории с бинарниками и скомпилированными файлами
+build/
+bin/
+Debug/
+Release/
+debug/
+release/
+
+# Настройки IDE
+.vscode/
+.idea/
+
+# CMake файлы
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+Makefile.user
+CMakeLists.txt.user
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+
+# Xcode файлы
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+
+# Windows-specific файлы
+Thumbs.db
+ehthumbs.db
+
+# macOS специфичные файлы
+.DS_Store
