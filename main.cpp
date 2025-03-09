@@ -1,5 +1,7 @@
 #include <iostream>
 #include "swcase.h"
+#include "vowelcount.h"
+#include "ifpalindrome.h"
 
 int main()
 {
@@ -15,7 +17,7 @@ int main()
         while (true)
         {
             int choice;
-            cout << "\nEnter choice:\n0. Exit\n1. Switching case\nChoice: ";
+            cout << "\nEnter choice:\n0. Exit\n1. Switching case\n2. Count vowels\n3. Is palindrome\nChoice: ";
 
             if (!(cin >> choice))
             {
@@ -37,6 +39,17 @@ int main()
                 cout << "\nResult: " << switchCase(user_input) << endl;
                 break;
 
+            case 2:
+                cout << "\nResult: " << countVowels(user_input) << endl;
+                break;
+            case 3:
+                if (isPalindrome(user_input)) {
+                    cout << "\nYes" << endl;
+                } else {
+                    cout << "\nNo" << endl;
+                }
+                break;
+                
             default:
                 cout << "\nError: Invalid choice.\n";
                 continue;

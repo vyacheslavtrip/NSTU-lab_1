@@ -11,7 +11,7 @@
 2. Скомпилируйте проект с помощью вашего компилятора C++ (например, g++):
 
     ```bash
-    g++ main.cpp swcase.cpp -o program
+    g++ main.cpp swcase.cpp ifpalindrome.cpp vowelcount.cpp -o program
     ```
 
 3. Запустите исполняемый файл:
@@ -25,8 +25,13 @@
 - `main.cpp`: Основной файл программы.
 - `swcase.cpp`: Файл реализации классов.
 - `swcase.h`: Заголовочные файлы классов.
+- `vowelcount.cpp`: Файл реализации классов.
+- `vowelcount.h`: Заголовочные файлы классов.
+- `ifpalindrome.cpp`: Файл реализации классов.
+- `ifpalindrome.h`: Заголовочные файлы классов.
 - `README.md`: Файл с описанием работы.
 
 ## Авторы
 
 - Соколов Вячеслав (swcase, main)
+- Костин Константин (vowelcount, ifpalindrome)
