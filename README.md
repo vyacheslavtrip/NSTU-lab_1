@@ -30,8 +30,10 @@
 - `ifpalindrome.cpp`: Файл реализации классов.
 - `ifpalindrome.h`: Заголовочные файлы классов.
 - `README.md`: Файл с описанием работы.
-
+- `punct_remove.cpp`: Файл реализации классов.
+- `punct_remove.h`: Заголовочные файлы классов.
 ## Авторы
 
 - Соколов Вячеслав (swcase, main)
 - Костин Константин (vowelcount, ifpalindrome)
+- Шамовцев Савелий (punct_remove)
