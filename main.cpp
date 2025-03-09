@@ -2,6 +2,7 @@
 #include "swcase.h"
 #include "vowelcount.h"
 #include "ifpalindrome.h"
+#include "punct_remove.h"
 
 int main()
 {
@@ -50,7 +51,7 @@ int main()
                 }
                 break;
             case 4:
-                cout << "\nResult: " << removePunctuation(user_input) << endl;
+                cout << "\nResult: " << removePunct(user_input) << endl;
                 break;
                 
             default:
