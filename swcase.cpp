@@ -3,6 +3,11 @@
 
 using namespace std;
 
+
+/// eoqwk;el kqw;l e
+
+
+
 // Функция смены регистра строки
 string switchCase(const string &input)
 {
